@@ -173,7 +173,8 @@ class Api{
 	public function run_code(){
 		//执行任意代码，返回输出数据
 		header("content-Type: text/plain; charset=utf-8");
-		eval(get_core('LyPost')->get('code'));
+		echo "<script>alert('not allow')</script>";
+		//eval(get_core('LyPost')->get('code'));
 	}
 
 	public function url_download(){
@@ -228,5 +229,3 @@ class Api{
 		echo json_encode($content,JSON_UNESCAPED_UNICODE);
 	}
 }
-
-?>

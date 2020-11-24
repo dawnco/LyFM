@@ -2,7 +2,7 @@
 /*
 LyCore
 Copyright (c) 2013 loveyu
-Released under the MIT License <http://www.opensource.org/licenses/mit-license.php> 
+Released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
 */
 function get_core($name = ''){
 	$r_core = LyCore::$core;
