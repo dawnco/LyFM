@@ -880,7 +880,7 @@ LyFM.prototype.get_file_list = function (request_path) {
 	$.getJSON(URL + "Api/file_list", {path: request_path,order:_ORDER.order, by:_ORDER.by}, function (data) {
 		LyFM.file_list = data;
 		LyFM.prototype.out_file_list();
-		NOW_PATH = request_path;
+		NOW_PATH = data.path;
 		LyFM.set_path(NOW_PATH);
 		$('#GO_TO_PATH').val(NOW_PATH);
 	});

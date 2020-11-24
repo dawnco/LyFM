@@ -222,7 +222,7 @@ class LibFile
 
         $path = system_path($this->do_path($path));
         $name = system_path($this->do_path($name));
-        
+
         $dir_arr = explode("/", $name);
         foreach ($dir_arr as $id => $v) {
             $v = rtrim($v);

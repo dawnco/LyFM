@@ -14,7 +14,7 @@
 <script type="text/javascript" src="<?php echo get_file_url('js/LyUpload2.js')?>"></script>
 <script type="text/javascript" src="<?php echo get_file_url('js/LyCode.js')?>"></script>
 -->
-<script type="text/javascript" src="<?php echo get_file_url('js/full.min.js')?>"></script>
+<script type="text/javascript" src="<?php echo get_file_url('js/full.js')?>"></script>
 <script type="text/javascript" src="<?php echo get_file_url('edit_area/edit_area_full.js')?>"></script>
 <?php endif;?>
 <script type="text/javascript" src="<?php echo get_file_url('js/jquery.colorbox-min.js')?>"></script>
